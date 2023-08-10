@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Righteous&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #ecf2f5;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1199px;
+  margin: 0 auto;
+  padding: 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* header */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-weight: 1000;
+  font-size: larger;
+  color: #130510;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#home {
+  color: #0059ff;
+}
+
+li a:hover {
+  background-color: #73cfe8;
+}
+/* .section1 */
+.section1 {
+  position: relative;
+}
+.section1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 208px;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 50%;
+  background: #ffffff2a url("./assest/mask.png") no-repeat center center;
+  background-size: contain;
+  /* background: linear-gradient(255,255,255,.5) url("./assest/mask.png") no-repeat center center cover; */
+}
+.section-row {
+  display: flex;
+  align-items: center;
+}
+.healthcare-content {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+#healthcare {
+  color: #333;
+  font-size: 48.34px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.549px;
+}
+#availability {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: small;
+  font-weight: lighter;
+  color: #13051093;
+}
+.button {
+  background-color: #6845d3cf;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.image img {
+  margin-left: auto;
+  display: block;
+  border-radius: 60%;
+}
+.image {
+  height: auto;
+  width: 50%;
+  margin-left: auto;
+}
+/* .section2 */
+
+.section-section-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video {
+  margin: "40px";
+  margin-top: 160px;
+}
+.section2content {
+  text-align: center;
+}
+
+.section2content {
+  h5 {
+    font-size: smaller;
+    font-weight: lighter;
+  }
+  h2 {
+    font-size: larger;
+    color: #cd8a32;
+  }
+  p {
+    font-size: large;
+    font-weight: lighter;
+    color: #1305;
+  }
+}
+span {
+  font-size: medium;
+  font-weight: bold;
+  color: #ce3f9f;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+.service-section {
+  margin: 160px auto;
+  text-align: center;
+}
+.service-section h5 {
+  color: #ffb87a;
+  font-size: 21.33px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.491px;
+}
+.service-section h2 {
+  color: #333;
+  text-align: center;
+
+  /* Title 02_Semibold */
+  font-size: 36.34px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.549px;
+}
+footer {
+  background-color: #13051040;
+  color: #ffb87a;
+  margin-block: 10px;
+  padding: 120px 120px;
+}

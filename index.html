@@ -1,0 +1,174 @@
+<!-- html version 5 
+defines that this document is an HTML5 document-->
+<!DOCTYPE html>
+
+<!-- <html> element is the root element of an HTML page -->
+<html lang="en">
+
+<!-- Head tag- contains meta information about the page
+    manages css ,javascript, meta tags ,title pages -->
+
+<head>
+
+    <!--  meta tag- we can provide description of our web page 
+    and meta tag is used to specify character set, page description,
+    keywords(topics of web page content), author of the document, and viewport settings.
+    charset,name,content,http-equiv are the meta tag attributes -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assest/favicon-16x16.png" type="image/x-icon">
+
+    <!-- The <title> element specifies a title for the HTML page 
+        (which is shown in the browser's title bar or in the page's tab) -->
+    <title>yatharth chest and allergy clinic</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<!-- Body tag- manages the entire content  inside the page 
+container for all the visible contents, such as headings, 
+paragraphs, images, hyperlinks, tables, lists, etc.-->
+
+<body>
+
+    <!-- Semantic Elements:
+          Header, navigation,
+          Section,article,aside
+          Footer
+          non semantic elements -div ,span
+
+        The <header> element represents a container for introductory content or a set of navigational links. -->
+    <header class="header">
+        <!-- The <div> tag defines a division or a section in an HTML document and it's a block element whereas span is inline.
+
+            The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+            
+            The <div> tag is easily styled by using the class or id attribute. -->
+        <div class="container">
+            <div class="row">
+                <a class="logo" href="#">
+                    <!-- The HTML <img> tag is used to embed an image in a web page. 
+                        The <img> tag has two required attributes:
+                        src - Specifies the path to the image
+                        alt - Specifies an alternate text for the image
+                    
+                    -->
+
+                    <img src="assest/Screenshot_2.png" width="120px" alt="yatharth clinic">
+                </a>
+                <!-- <nav> element defines a set of navigation links. -->
+                <nav>
+                    <!-- list tag  ul-unordered list
+                         ol=ordered list
+                          li=list 
+                        a=anchor tag with href attribute-->
+                    <ul>
+                        <li><a id="home" href="#home">Home</a></li>
+                        <!--  a is element and it's attribute is href hyperlink and link destination ..
+                            Links allow users to click their way from page to page.
+                             target="_blank"  means it will landed to another page 
+                            target="_parent" landed to same page-->
+                        <li><a href="#about">About </a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#ourservices"> Our Services</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="section1">
+        <div class="container">
+            <div class="section-row">
+                <div class="healthcare-content">
+                    <!-- heading tag 
+                        h1 is used only once  for the description of the web pages 
+                        and it will display in search result because of meta tag 
+                        h1>h2>h3>h4>h5>h6 -->
+                    <h1 id="healthcare">Complete Healthcare <br>Solution for <br> Everyone</h1>
+                    <!-- paragraphs -->
+                    <p id="availability">We're always available for our patients with emergency problems. <br>
+                        you can easily reach out to us 24*7.We focused on highest quality.
+                    </p>
+                    <button class="button"> Make Appointment</button>
+                </div>
+                <div class="image">
+                    <img src="assest/dr rahul img.png" alt="dr rahul image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="section2-container">
+            <div class="section2-section-row">
+                <div class="video">
+                    <video autoplay loop muted src="assest/pexels-mart-production-7089365 (2160p).mp4"
+                        width="400px"></video>
+                </div>
+                <div class="section2content">
+
+                    <h5>who we are?</h5>
+                    <h2>Short story about Yatharth clinic</h2>
+
+                    <p>
+                        Yatharth healthcare is also an online healthcare provider, Offering health solutions and
+                        advice
+                        to over 30,00,000
+                        patients across India<br>
+                        With a team of licensed doctors and specialised doctors, Yatharth healthcare aim to provide
+                        comprihensive medical
+                        consultation services for patients. <br>
+                    </p>
+                </div>
+                <span>know more <i class="fa-solid fa-arrow-right-long"></i></span>
+
+    </section>
+
+    <section class="service-section">
+        <h5>Our services</h5>
+        <h2>We Offer Different Services <br>
+            To Improve Your Health</h2>
+
+    </section>
+
+
+    <section class="feature-section">
+        <div class=""></div>
+    </section>
+    <section class="get-offers-section"></section>
+
+    <!-- The <footer> element defines a footer for a document or section.
+
+        A <footer> element typically contains:
+        
+        authorship information
+        copyright information
+        contact information
+        sitemap
+        back to top links
+        related documents -->
+    <footer>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+    </footer>
+
+    <!-- script tag is used to define client side script in web pages
+    async="true" indicates that at the time of page loading it will load html elements first then javascript content
+but when we talk about defer="true"  then it will load javascript content first then html elements  -->
+
+    <script type="text/javascript" async="true">
+        document.write("healthcare site")
+
+    </script>
+
+</body>
+
+</html>
