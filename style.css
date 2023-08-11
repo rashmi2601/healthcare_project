@@ -1,18 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Righteous&display=swap");
 
+/* * is universal selector */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+/* html body are selectors( grouping element selector) with background color property and it's value with # */
 html,
 body {
   background-color: #ecf2f5;
   scroll-behavior: smooth;
 }
+ 
+/* class selector put it as with dot .classname
+and id with #idname 
+id should be unique */
 
-.container {
-  max-width: 1199px;
+  /* Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+The box model allows us to add a border around elements, and to define space between elements. 
+  max-width: 1199px; */
+  .container {
   margin: 0 auto;
   padding: 0;
 }
@@ -22,6 +35,7 @@ body {
   justify-content: space-between;
 }
 /* header */
+/* element selector */
 ul {
   list-style-type: none;
   margin: 0;
